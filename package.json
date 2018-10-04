@@ -1,0 +1,14 @@
+{
+  "name": "seccion-comentarios-sv",
+  "version": "0.0.1",
+  "description": "Reto #1 de Silicon Valley. Muro que permite ingresar comentarios, que se guarden y que se puedan eliminar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "comments"
+  ],
+  "author": "Camila Ramírez Ponce",
+  "license": "ISC"
+}
