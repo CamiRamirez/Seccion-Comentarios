@@ -1,4 +1,9 @@
-
+body{
+  background-image: url(../img/pexels-photo-1352751.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
 #messageContainer {
   margin-top: 2em;
   width: 100%;
