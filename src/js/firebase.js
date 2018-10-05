@@ -15,8 +15,8 @@ firebase.database().ref('messages')
   .limitToLast(5) //muestra solo los ultimos 5 mensajes como historial al recargar la pagina
   .on('child_added', (newMessage) => {
     contenedor.innerHTML = `
-              <div class="trashPost" style="margin: 7%; border-radius:8px; background-color:#ECF8E0">
-                <p style="margin-left:0.5em;">${newMessage.val().text}</p>
+              <div class="trashPost" style="margin-top: 3em; height: 5em; border-radius:8px; background-color:#ECF8E0">
+                <p style="margin-left:1em; padding-top:0.8em;">${newMessage.val().text}</p>
                 <i class="fa fa-trash trash iconTrash" onclick="deletePost(event)" 
                 data-postId="${newMessage.key}"></i>
               </div>
