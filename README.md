@@ -5,7 +5,6 @@ Crea una interfaz web que permite agregar comentarios, ver los anteriormente pub
 ## Deploy
 [Click aquí](https://camiramirez.github.io/Seccion-Comentarios/)
 
-
 ## Autor
 
 Camila Ramírez Ponce, Estudiante 6ta generación Laboratoria, Chile.
